@@ -1,18 +1,20 @@
 # Repository-Docker-Support
-Containers:
+
+
 Problem statement:
-----------------------------------------
-Web server - NodeJS/Tomcat/IIS
-DB - MongoDB/SQL server 
-Messaging - Redis [Database, messaging , caching ]
-CM - ansible/puppet
----------------------------------------------
+<br/>
+----------------------------------------<br/>
+Web server - NodeJS/Tomcat/IIS<br/>
+DB - MongoDB/SQL server<br/>
+Messaging - Redis [Database, messaging , caching ]<br/>
+CM - ansible/puppet<br/>
+---------------------------------------------<br/>
 long setup time & multiple servers
 	1) System admin 
 	2) Install the dependencies
 	3) Install the software
-	4) Sometimes application works in Dev but doesn't work in QA and production, missing dependencies
-=============================
+	4) Sometimes application works in Dev but doesn't work in QA and production, missing dependencies<br/>
+=============================<br/>
 Why we install different apps on different servers
 Compatibility issues - all software has dependency and libraries, underlying software.
 1) IIS 8.5 
